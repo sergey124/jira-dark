@@ -1,0 +1,4 @@
+Fork of a lovely global style "NightShift - eye care" adapted for JIRA.
+
+Original global style:
+https://userstyles.org/styles/18192/nightshift-eye-care
