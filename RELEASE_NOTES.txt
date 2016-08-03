@@ -1,0 +1,14 @@
+RELEASE NOTES:
+21-07-2016: Disabled for regexp(".*jira.*"), only prefix match left.
+11-12-2015: Enabled for regexp(".*jira.*")
+24-11-2015: Tempo: fixed worklog edit form actions.
+24-11-2015: Agile board: fixed chosen quick filters color.
+20-11-2015: Agile board: fixed colored straps.
+20-11-2015: Test plugin: test status color: darker.
+19-11-2015: Test plugin: test status color fixed.
+19-11-2015: Dark scrollbars (Thanks https://gist.github.com/devinrhode2/2573411) (not for Firefox)
+02-11-2015: Tuned circle-label colors in test plugin.
+31-10-2015: Removed fade to white.
+30-10-2015: Test plugin: icons fixed.
+29-10-2015: Fixed more icons.
+21-10-2015: Fixed icons display!
