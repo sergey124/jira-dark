@@ -41,6 +41,10 @@ pre:not(:empty), code:not(:empty) , cite:not(:empty), pre:not(:empty) *, code:no
   text-shadow: 0 0px 0 white;
 }
 
+.aui-inline-dialog .buttons-container.content-footer input.cell-add {
+    background: #000!important;
+}
+
 a.js-quickfilter-button.last.ghx-active, a.js-quickfilter-button.first.ghx-active, a.js-quickfilter-button.ghx-active, .ghx-controls-filters dd a.ghx-active {
     background: #3572b0!important;
 }
