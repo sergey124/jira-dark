@@ -54,10 +54,6 @@ a.js-quickfilter-button.last.ghx-active, a.js-quickfilter-button.first.ghx-activ
     background: #3572b0!important;
 }
 
-div.ui-draggable {
-    display: none;
-}
-
 .editable-field .overlay-icon {
 	color: transparent!important;
 }
