@@ -7,7 +7,7 @@ body>*>*:not(:empty){background-color:#222!important}
 body>*>*>*:not(:empty){background-color: transparent}
 body>*>*>*>*:not(:empty){background-color:#282828!important}
 body>*>*>*>*>*:not(:empty){background-color:#383838!important}
-body>*>*>*>*>* *:not([class^="tm-label-circle"]):not([class^="tm-status-dropdown"]):not([class^="ghx-grabber"]):not([class*="ghx-active"]){background-color:#383838!important}
+body>*>*>*>*>* *:not([class^="tm-label-circle"]):not([class^="tm-status-dropdown"]):not([class^="ghx-grabber"]):not([class*="ghx-active"]):not([class*="aui-icon"]){background-color:#383838!important}
 body table:not(:empty){background-color:#282828!important}
 body table>tbody>tr:nth-child(even){background-color:rgba(0,0,0,.2)!important}
 body table>tbody>tr>td:nth-child(odd){background-color:rgba(0,0,0,.1)!important}
@@ -45,12 +45,13 @@ pre:not(:empty), code:not(:empty) , cite:not(:empty), pre:not(:empty) *, code:no
     background: #000!important;
 }
 
-a.js-quickfilter-button.last.ghx-active, a.js-quickfilter-button.first.ghx-active, a.js-quickfilter-button.ghx-active, .ghx-controls-filters dd a.ghx-active {
-    background: #3572b0!important;
+.aui-sidebar .aui-nav>li>.aui-nav-item>.aui-icon, .aui-sidebar-submenu .aui-nav>li>.aui-nav-item>.aui-icon {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
-div.ui-draggable {
-    display: none;
+a.js-quickfilter-button.last.ghx-active, a.js-quickfilter-button.first.ghx-active, a.js-quickfilter-button.ghx-active, .ghx-controls-filters dd a.ghx-active {
+    background: #3572b0!important;
 }
 
 .editable-field .overlay-icon {
